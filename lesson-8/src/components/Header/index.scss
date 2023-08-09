@@ -1,0 +1,33 @@
+header {
+  background: rgb(19, 105, 98);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 10px;
+  &__logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    column-gap: 4rem;
+    &--item {
+      font-size: 18px;
+      list-style-type: none;
+      color: #000;
+      font-weight: 700;
+      &-link {
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+      }
+    }
+  }
+}
